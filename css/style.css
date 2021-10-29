@@ -76,16 +76,15 @@
 }
 
 #fotoPessoal {
-    background-image: url(Imagens/fotoPerfil-AD.jpg);   
+    background-image: url(../includes/images/fotoPerfil-AD.jpg);   
 }
 
 #fotoApresentacao {
-    background-image: url(Imagens/fundoApresentacao.jfif);
-
+    background-image: url(../includes/images/fundoApresentacao.jfif);
 }
 
 #fotoHobbies {
-    background-image: url(Imagens/funtoEsportes.jpg);
+    background-image: url(../includes/images/funtoEsportes.jpg);
 }
 
 #listaHobbies {
@@ -97,11 +96,11 @@
 }
 
 #fotoTabela {
-    background-image: url(Imagens/fotoTabelas.jpg);
+    background-image: url(../includes/images/fotoTabelas.jpg);
 }
 
 #fotoLinks {
-    background-image: url(Imagens/fotoLinks.jpg);
+    background-image: url(../includes/images/fotoLinks.jpg);
 }
 
 #textoLinks {
