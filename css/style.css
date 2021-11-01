@@ -1,137 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .fundo {
-    width: 100%;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    background-position: center;
-    overflow: hidden;
-    justify-content: center;
-    min-width: 100%;
-    max-width: 100%;
-    
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center;
+  overflow: hidden;
+  justify-content: center;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .nome {
-    margin-top: 20%;
-    margin-left: 20%;
-    justify-content: left;
-    font: 160% sans-serif;
-    font-size: 40px;
-    line-height: 1.2;
-    font-weight: bolder;
-    letter-spacing: 0.5ex;
-
+  margin-top: 20%;
+  margin-left: 20%;
+  justify-content: left;
+  font: 160% sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bolder;
+  letter-spacing: 0.5ex;
 }
 
 .subTitulo {
-    letter-spacing: 0.2ex;
-    display: flex;
-    margin-top: 4%;
-    justify-content: center;
-    align-content: center;
-    font: 160% sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1.5;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  letter-spacing: 0.2ex;
+  display: flex;
+  margin-top: 4%;
+  justify-content: center;
+  align-content: center;
+  font: 160% sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .texto {
-    display: flex;
-    margin-top: 5%;
-    width: 75%;
-    height: 60%;
-    margin-left: 12.5%;
-    text-align: center;
-    background-color: rgba(34, 36, 36, 0.850);
-    justify-content: center;
-    align-items: center;
-    font: 100% sans-serif;
+  display: flex;
+  margin-top: 5%;
+  width: 75%;
+  height: 60%;
+  margin-left: 12.5%;
+  text-align: center;
+  background-color: rgba(34, 36, 36, 0.85);
+  justify-content: center;
+  align-items: center;
+  font: 100% sans-serif;
 }
 
 .tabela {
-    display: flex;
-    margin-top: 4%;
-    width: 75%;
-    height: 60%;
-    margin-left: 12.5%;
-    text-align: center;
-    background-color: rgba(34, 36, 36, 0.850);
-    justify-content: center;
-    align-items: center;
-    font: 160% sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    line-height: 2.5;
-
+  display: flex;
+  margin-top: 4%;
+  width: 75%;
+  height: 60%;
+  margin-left: 12.5%;
+  text-align: center;
+  background-color: rgba(34, 36, 36, 0.85);
+  justify-content: center;
+  align-items: center;
+  font: 160% sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 2.5;
 }
 
 #nomeDenominacao {
-    margin-top: 5%;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: initial;
+  margin-top: 5%;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: initial;
 }
 
 #fotoPessoal {
-    background-image: url(../includes/images/fotoPerfil-AD.jpg);   
+  background-image: url(../includes/images/fotoPerfil-AD.jpg);
 }
 
 #fotoApresentacao {
-    background-image: url(../includes/images/fundoApresentacao.jfif);
+  background-image: url(../includes/images/fundoApresentacao.jfif);
 }
 
 #fotoHobbies {
-    background-image: url(../includes/images/funtoEsportes.jpg);
+  background-image: url(../includes/images/funtoEsportes.jpg);
 }
 
 #listaHobbies {
-    font: 100% sans-serif;
-    text-transform: uppercase;
-    margin-left: 3%;
-    line-height: 1.5;
-    text-align: left;
+  font: 100% sans-serif;
+  text-transform: uppercase;
+  margin-left: 3%;
+  line-height: 1.5;
+  text-align: left;
 }
 
 #fotoTabela {
-    background-image: url(../includes/images/fotoTabelas.jpg);
+  background-image: url(../includes/images/fotoTabelas.jpg);
 }
 
 #fotoLinks {
-    background-image: url(../includes/images/fotoLinks.jpg);
+  background-image: url(../includes/images/fotoLinks.jpg);
 }
 
 #textoLinks {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 33% 33% 33%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
 }
 
 p {
-    padding: 5%;
-    font: arial;
-    text-transform: uppercase;
-    line-height: 2.5;
+  padding: 5%;
+  font: arial;
+  text-transform: uppercase;
+  line-height: 2.5;
 }
 
 a:link {
-    color: green;
-    text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
 
 a:visited {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 a:hover {
-    color: pink;
-    text-decoration: none;
+  color: pink;
+  text-decoration: none;
 }
 
 a:active {
-    color: yellow;
-    text-decoration: none;
+  color: yellow;
+  text-decoration: none;
 }
