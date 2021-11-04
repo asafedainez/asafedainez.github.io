@@ -5,10 +5,8 @@
 
 body {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-}
-
-main {
-  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  word-spacing: 0.1em;
 }
 
 h2 {
@@ -19,6 +17,7 @@ h2 {
 main {
   padding-left: 20%;
   padding-right: 20%;
+  color: aliceblue;
 }
 
 .menu-options {
@@ -62,7 +61,7 @@ ul a {
   height: 100px;
   display: inline-block;
   width: 100%;
-  background-color: #515151;
+  background-color: #303030;
   vertical-align: middle;
   position: fixed;
 }
@@ -109,6 +108,10 @@ ul a {
 
 .body-content {
   margin: 10%;
+}
+
+li {
+  list-style-type: none;
 }
 
 /* .fundo {
