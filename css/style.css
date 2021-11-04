@@ -3,6 +3,114 @@
   margin: 0px;
 }
 
+body {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10%;
+}
+
+main {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.menu-options {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+.menu-div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  height: 90%;
+}
+
+.menu-opt {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5%;
+}
+
+ul a {
+  display: inline-block;
+  width: fit-content;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.perfil-picture {
+  margin-left: 15%;
+  max-height: 80%;
+  border-radius: 50%;
+  margin-top: 0.5%;
+}
+
+.menu {
+  height: 100px;
+  display: inline-block;
+  width: 100%;
+  background-color: #515151;
+  vertical-align: middle;
+  position: fixed;
+}
+
+.header-site {
+  height: 100vh;
+  width: 100%;
+}
+
+.name {
+  padding-top: 20%;
+  font-size: 3em;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  color: aliceblue;
+}
+
+.dot-header {
+  color: green;
+}
+
+.header-site {
+  background-image: url(../includes/images/Eu.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.container-header {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+.name-role {
+  color: aliceblue;
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin-left: 2.2%;
+  line-height: 1.2;
+}
+
+.body-content {
+  margin: 10%;
+}
+
 /* .fundo {
   width: 100%;
   height: 100vh;
